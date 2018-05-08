@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusMessage component should render error 1`] = `
+<div
+  className="max-width-4 flex justify-between py2 px1 light text-white"
+  style={
+    Object {
+      "backgroundColor": "#ef5350",
+    }
+  }
+>
+  <div
+    className="flex"
+  >
+    <img
+      className="mr2 flex-none"
+      height="31"
+      src="/images/icn-failure.png"
+      width="31"
+    />
+    <div
+      className="h5 regular"
+    >
+       
+    </div>
+  </div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "&times;",
+      }
+    }
+    onClick={undefined}
+  />
+</div>
+`;
+
+exports[`StatusMessage component should render success 1`] = `
+<div
+  className="max-width-4 flex justify-between py2 px1 light text-white"
+  style={
+    Object {
+      "backgroundColor": "#8bc34a",
+    }
+  }
+>
+  <div
+    className="flex"
+  >
+    <img
+      className="mr2 flex-none"
+      height="31"
+      src="/images/icn-success-white.png"
+      width="31"
+    />
+    <div />
+  </div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "&times;",
+      }
+    }
+    onClick={undefined}
+  />
+</div>
+`;
+
+exports[`StatusMessage component should render warning 1`] = `
+<div
+  className="max-width-4 flex justify-between py2 px1 light text-white"
+  style={
+    Object {
+      "backgroundColor": "#ff9800",
+    }
+  }
+>
+  <div
+    className="flex"
+  >
+    <img
+      className="mr2 flex-none"
+      height="31"
+      src="/images/icn-warning.png"
+      width="31"
+    />
+    <div />
+  </div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "&times;",
+      }
+    }
+    onClick={undefined}
+  />
+</div>
+`;

@@ -1,0 +1,932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login
+    dmsid=""
+    pin=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Connect(PageTitle)
+          page="Login"
+/>,
+        <div
+          className="clearfix center"
+>
+          <h1
+                    className="light text-primary h2"
+          >
+                    Ingresa tus credenciales:
+          </h1>
+          <styled.div>
+                    <img
+                              alt=""
+                              src="/images/icn-DMSID.png"
+                    />
+                    <TextField
+                              disabled={false}
+                              floatingLabelFixed={false}
+                              floatingLabelStyle={
+                                        Object {
+                                                  "color": "#7986cb",
+                                                }
+                              }
+                              floatingLabelText="DMSID"
+                              fullWidth={false}
+                              id="dmsid"
+                              multiLine={false}
+                              onChange={undefined}
+                              rows={1}
+                              type="text"
+                              underlineFocusStyle={
+                                        Object {
+                                                  "borderColor": "#81d4fa",
+                                                }
+                              }
+                              underlineShow={true}
+                              value=""
+                    />
+          </styled.div>
+          <styled.div>
+                    <img
+                              alt=""
+                              src="/images/icn-password.png"
+                    />
+                    <TextField
+                              disabled={false}
+                              floatingLabelFixed={false}
+                              floatingLabelStyle={
+                                        Object {
+                                                  "color": "#7986cb",
+                                                }
+                              }
+                              floatingLabelText="CLAVE"
+                              fullWidth={false}
+                              id="password"
+                              multiLine={false}
+                              onChange={undefined}
+                              rows={1}
+                              type="password"
+                              underlineFocusStyle={
+                                        Object {
+                                                  "borderColor": "#81d4fa",
+                                                }
+                              }
+                              underlineShow={true}
+                              value=""
+                    />
+          </styled.div>
+          <br />
+          <RaisedButton
+                    className="mt2"
+                    disabled={true}
+                    disabledBackgroundColor="#CAF1F6"
+                    disabledLabelColor="#FFF"
+                    fullWidth={false}
+                    label="Iniciar"
+                    labelPosition="after"
+                    onClick={undefined}
+                    primary={false}
+                    secondary={true}
+          />
+          <br />
+          <p>
+                    <a
+                              className="text-secondary text-decoration-none light"
+                              href="#!ChangePin"
+                    >
+                              Cambiar Clave
+                    </a>
+          </p>
+</div>,
+      ],
+      "className": "max-width-4 mx-auto",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "page": "Login",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="light text-primary h2"
+>
+              Ingresa tus credenciales:
+</h1>,
+            <styled.div>
+              <img
+                            alt=""
+                            src="/images/icn-DMSID.png"
+              />
+              <TextField
+                            disabled={false}
+                            floatingLabelFixed={false}
+                            floatingLabelStyle={
+                                          Object {
+                                                        "color": "#7986cb",
+                                                      }
+                            }
+                            floatingLabelText="DMSID"
+                            fullWidth={false}
+                            id="dmsid"
+                            multiLine={false}
+                            onChange={undefined}
+                            rows={1}
+                            type="text"
+                            underlineFocusStyle={
+                                          Object {
+                                                        "borderColor": "#81d4fa",
+                                                      }
+                            }
+                            underlineShow={true}
+                            value=""
+              />
+</styled.div>,
+            <styled.div>
+              <img
+                            alt=""
+                            src="/images/icn-password.png"
+              />
+              <TextField
+                            disabled={false}
+                            floatingLabelFixed={false}
+                            floatingLabelStyle={
+                                          Object {
+                                                        "color": "#7986cb",
+                                                      }
+                            }
+                            floatingLabelText="CLAVE"
+                            fullWidth={false}
+                            id="password"
+                            multiLine={false}
+                            onChange={undefined}
+                            rows={1}
+                            type="password"
+                            underlineFocusStyle={
+                                          Object {
+                                                        "borderColor": "#81d4fa",
+                                                      }
+                            }
+                            underlineShow={true}
+                            value=""
+              />
+</styled.div>,
+            <br />,
+            <RaisedButton
+              className="mt2"
+              disabled={true}
+              disabledBackgroundColor="#CAF1F6"
+              disabledLabelColor="#FFF"
+              fullWidth={false}
+              label="Iniciar"
+              labelPosition="after"
+              onClick={undefined}
+              primary={false}
+              secondary={true}
+/>,
+            <br />,
+            <p>
+              <a
+                            className="text-secondary text-decoration-none light"
+                            href="#!ChangePin"
+              >
+                            Cambiar Clave
+              </a>
+</p>,
+          ],
+          "className": "clearfix center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ingresa tus credenciales:",
+              "className": "light text-primary h2",
+            },
+            "ref": null,
+            "rendered": "Ingresa tus credenciales:",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt=""
+                  src="/images/icn-DMSID.png"
+/>,
+                <TextField
+                  disabled={false}
+                  floatingLabelFixed={false}
+                  floatingLabelStyle={
+                                    Object {
+                                                      "color": "#7986cb",
+                                                    }
+                  }
+                  floatingLabelText="DMSID"
+                  fullWidth={false}
+                  id="dmsid"
+                  multiLine={false}
+                  onChange={undefined}
+                  rows={1}
+                  type="text"
+                  underlineFocusStyle={
+                                    Object {
+                                                      "borderColor": "#81d4fa",
+                                                    }
+                  }
+                  underlineShow={true}
+                  value=""
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "/images/icn-DMSID.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "disabled": false,
+                  "floatingLabelFixed": false,
+                  "floatingLabelStyle": Object {
+                    "color": "#7986cb",
+                  },
+                  "floatingLabelText": "DMSID",
+                  "fullWidth": false,
+                  "id": "dmsid",
+                  "multiLine": false,
+                  "onChange": undefined,
+                  "rows": 1,
+                  "type": "text",
+                  "underlineFocusStyle": Object {
+                    "borderColor": "#81d4fa",
+                  },
+                  "underlineShow": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt=""
+                  src="/images/icn-password.png"
+/>,
+                <TextField
+                  disabled={false}
+                  floatingLabelFixed={false}
+                  floatingLabelStyle={
+                                    Object {
+                                                      "color": "#7986cb",
+                                                    }
+                  }
+                  floatingLabelText="CLAVE"
+                  fullWidth={false}
+                  id="password"
+                  multiLine={false}
+                  onChange={undefined}
+                  rows={1}
+                  type="password"
+                  underlineFocusStyle={
+                                    Object {
+                                                      "borderColor": "#81d4fa",
+                                                    }
+                  }
+                  underlineShow={true}
+                  value=""
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "src": "/images/icn-password.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "disabled": false,
+                  "floatingLabelFixed": false,
+                  "floatingLabelStyle": Object {
+                    "color": "#7986cb",
+                  },
+                  "floatingLabelText": "CLAVE",
+                  "fullWidth": false,
+                  "id": "password",
+                  "multiLine": false,
+                  "onChange": undefined,
+                  "rows": 1,
+                  "type": "password",
+                  "underlineFocusStyle": Object {
+                    "borderColor": "#81d4fa",
+                  },
+                  "underlineShow": true,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "mt2",
+              "disabled": true,
+              "disabledBackgroundColor": "#CAF1F6",
+              "disabledLabelColor": "#FFF",
+              "fullWidth": false,
+              "label": "Iniciar",
+              "labelPosition": "after",
+              "onClick": undefined,
+              "primary": false,
+              "secondary": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="text-secondary text-decoration-none light"
+                href="#!ChangePin"
+>
+                Cambiar Clave
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cambiar Clave",
+                "className": "text-secondary text-decoration-none light",
+                "href": "#!ChangePin",
+              },
+              "ref": null,
+              "rendered": "Cambiar Clave",
+              "type": "a",
+            },
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(PageTitle)
+            page="Login"
+/>,
+          <div
+            className="clearfix center"
+>
+            <h1
+                        className="light text-primary h2"
+            >
+                        Ingresa tus credenciales:
+            </h1>
+            <styled.div>
+                        <img
+                                    alt=""
+                                    src="/images/icn-DMSID.png"
+                        />
+                        <TextField
+                                    disabled={false}
+                                    floatingLabelFixed={false}
+                                    floatingLabelStyle={
+                                                Object {
+                                                            "color": "#7986cb",
+                                                          }
+                                    }
+                                    floatingLabelText="DMSID"
+                                    fullWidth={false}
+                                    id="dmsid"
+                                    multiLine={false}
+                                    onChange={undefined}
+                                    rows={1}
+                                    type="text"
+                                    underlineFocusStyle={
+                                                Object {
+                                                            "borderColor": "#81d4fa",
+                                                          }
+                                    }
+                                    underlineShow={true}
+                                    value=""
+                        />
+            </styled.div>
+            <styled.div>
+                        <img
+                                    alt=""
+                                    src="/images/icn-password.png"
+                        />
+                        <TextField
+                                    disabled={false}
+                                    floatingLabelFixed={false}
+                                    floatingLabelStyle={
+                                                Object {
+                                                            "color": "#7986cb",
+                                                          }
+                                    }
+                                    floatingLabelText="CLAVE"
+                                    fullWidth={false}
+                                    id="password"
+                                    multiLine={false}
+                                    onChange={undefined}
+                                    rows={1}
+                                    type="password"
+                                    underlineFocusStyle={
+                                                Object {
+                                                            "borderColor": "#81d4fa",
+                                                          }
+                                    }
+                                    underlineShow={true}
+                                    value=""
+                        />
+            </styled.div>
+            <br />
+            <RaisedButton
+                        className="mt2"
+                        disabled={true}
+                        disabledBackgroundColor="#CAF1F6"
+                        disabledLabelColor="#FFF"
+                        fullWidth={false}
+                        label="Iniciar"
+                        labelPosition="after"
+                        onClick={undefined}
+                        primary={false}
+                        secondary={true}
+            />
+            <br />
+            <p>
+                        <a
+                                    className="text-secondary text-decoration-none light"
+                                    href="#!ChangePin"
+                        >
+                                    Cambiar Clave
+                        </a>
+            </p>
+</div>,
+        ],
+        "className": "max-width-4 mx-auto",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "page": "Login",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="light text-primary h2"
+>
+                Ingresa tus credenciales:
+</h1>,
+              <styled.div>
+                <img
+                                alt=""
+                                src="/images/icn-DMSID.png"
+                />
+                <TextField
+                                disabled={false}
+                                floatingLabelFixed={false}
+                                floatingLabelStyle={
+                                                Object {
+                                                                "color": "#7986cb",
+                                                              }
+                                }
+                                floatingLabelText="DMSID"
+                                fullWidth={false}
+                                id="dmsid"
+                                multiLine={false}
+                                onChange={undefined}
+                                rows={1}
+                                type="text"
+                                underlineFocusStyle={
+                                                Object {
+                                                                "borderColor": "#81d4fa",
+                                                              }
+                                }
+                                underlineShow={true}
+                                value=""
+                />
+</styled.div>,
+              <styled.div>
+                <img
+                                alt=""
+                                src="/images/icn-password.png"
+                />
+                <TextField
+                                disabled={false}
+                                floatingLabelFixed={false}
+                                floatingLabelStyle={
+                                                Object {
+                                                                "color": "#7986cb",
+                                                              }
+                                }
+                                floatingLabelText="CLAVE"
+                                fullWidth={false}
+                                id="password"
+                                multiLine={false}
+                                onChange={undefined}
+                                rows={1}
+                                type="password"
+                                underlineFocusStyle={
+                                                Object {
+                                                                "borderColor": "#81d4fa",
+                                                              }
+                                }
+                                underlineShow={true}
+                                value=""
+                />
+</styled.div>,
+              <br />,
+              <RaisedButton
+                className="mt2"
+                disabled={true}
+                disabledBackgroundColor="#CAF1F6"
+                disabledLabelColor="#FFF"
+                fullWidth={false}
+                label="Iniciar"
+                labelPosition="after"
+                onClick={undefined}
+                primary={false}
+                secondary={true}
+/>,
+              <br />,
+              <p>
+                <a
+                                className="text-secondary text-decoration-none light"
+                                href="#!ChangePin"
+                >
+                                Cambiar Clave
+                </a>
+</p>,
+            ],
+            "className": "clearfix center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ingresa tus credenciales:",
+                "className": "light text-primary h2",
+              },
+              "ref": null,
+              "rendered": "Ingresa tus credenciales:",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt=""
+                    src="/images/icn-DMSID.png"
+/>,
+                  <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelStyle={
+                                        Object {
+                                                            "color": "#7986cb",
+                                                          }
+                    }
+                    floatingLabelText="DMSID"
+                    fullWidth={false}
+                    id="dmsid"
+                    multiLine={false}
+                    onChange={undefined}
+                    rows={1}
+                    type="text"
+                    underlineFocusStyle={
+                                        Object {
+                                                            "borderColor": "#81d4fa",
+                                                          }
+                    }
+                    underlineShow={true}
+                    value=""
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "/images/icn-DMSID.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "disabled": false,
+                    "floatingLabelFixed": false,
+                    "floatingLabelStyle": Object {
+                      "color": "#7986cb",
+                    },
+                    "floatingLabelText": "DMSID",
+                    "fullWidth": false,
+                    "id": "dmsid",
+                    "multiLine": false,
+                    "onChange": undefined,
+                    "rows": 1,
+                    "type": "text",
+                    "underlineFocusStyle": Object {
+                      "borderColor": "#81d4fa",
+                    },
+                    "underlineShow": true,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt=""
+                    src="/images/icn-password.png"
+/>,
+                  <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelStyle={
+                                        Object {
+                                                            "color": "#7986cb",
+                                                          }
+                    }
+                    floatingLabelText="CLAVE"
+                    fullWidth={false}
+                    id="password"
+                    multiLine={false}
+                    onChange={undefined}
+                    rows={1}
+                    type="password"
+                    underlineFocusStyle={
+                                        Object {
+                                                            "borderColor": "#81d4fa",
+                                                          }
+                    }
+                    underlineShow={true}
+                    value=""
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "src": "/images/icn-password.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "disabled": false,
+                    "floatingLabelFixed": false,
+                    "floatingLabelStyle": Object {
+                      "color": "#7986cb",
+                    },
+                    "floatingLabelText": "CLAVE",
+                    "fullWidth": false,
+                    "id": "password",
+                    "multiLine": false,
+                    "onChange": undefined,
+                    "rows": 1,
+                    "type": "password",
+                    "underlineFocusStyle": Object {
+                      "borderColor": "#81d4fa",
+                    },
+                    "underlineShow": true,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "mt2",
+                "disabled": true,
+                "disabledBackgroundColor": "#CAF1F6",
+                "disabledLabelColor": "#FFF",
+                "fullWidth": false,
+                "label": "Iniciar",
+                "labelPosition": "after",
+                "onClick": undefined,
+                "primary": false,
+                "secondary": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="text-secondary text-decoration-none light"
+                  href="#!ChangePin"
+>
+                  Cambiar Clave
+</a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cambiar Clave",
+                  "className": "text-secondary text-decoration-none light",
+                  "href": "#!ChangePin",
+                },
+                "ref": null,
+                "rendered": "Cambiar Clave",
+                "type": "a",
+              },
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

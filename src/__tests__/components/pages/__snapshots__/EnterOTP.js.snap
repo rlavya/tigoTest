@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="max-width-4 mx-auto"
+>
+  <div>
+    <div
+      className={undefined}
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#00377B",
+          "borderRadius": "0px",
+          "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+                 0 1px 4px rgba(0, 0, 0, 0.12)",
+          "boxSizing": "border-box",
+          "color": "#00377B",
+          "display": "flex",
+          "fontFamily": "Roboto, sans-serif",
+          "muiPrepared": true,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "position": "relative",
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+          "width": "100%",
+          "zIndex": 1100,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginLeft": -16,
+            "marginRight": 8,
+            "marginTop": 8,
+            "muiPrepared": true,
+          }
+        }
+      >
+        <span />
+      </div>
+      <div
+        onClick={[Function]}
+        style={
+          Object {
+            "boxFlex": 1,
+            "color": "#fafafa",
+            "flex": "1",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "height": 64,
+            "letterSpacing": 0,
+            "lineHeight": "64px",
+            "margin": 0,
+            "muiPrepared": true,
+            "overflow": "hidden",
+            "paddingTop": 0,
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+          }
+        }
+      >
+        <img
+          alt="TiGo"
+          src="/images/logo-header.png"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="center"
+  >
+    <h1
+      className="light text-primary h2"
+    >
+      Ingresa el código 
+      <br />
+      de verificación
+    </h1>
+    <div
+      className="mt3"
+    >
+      <p
+        className="regular text-primary inline"
+      >
+        Te enviamos un SMS al
+         
+      </p>
+      <p
+        className="bold text-primary inline"
+      >
+        +
+      </p>
+    </div>
+    <div
+      className="mt4 mb1 react-code-input"
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <input
+        autoComplete="off"
+        autoFocus="autoFocus"
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={0}
+        max={9}
+        maxLength={6}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+      <input
+        autoComplete="off"
+        autoFocus=""
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={1}
+        max={9}
+        maxLength={6}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+      <input
+        autoComplete="off"
+        autoFocus=""
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={2}
+        max={9}
+        maxLength={6}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+      <input
+        autoComplete="off"
+        autoFocus=""
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={3}
+        max={9}
+        maxLength={6}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+      <input
+        autoComplete="off"
+        autoFocus=""
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={4}
+        max={9}
+        maxLength={6}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+      <input
+        autoComplete="off"
+        autoFocus=""
+        data-valid={true}
+        defaultValue=""
+        disabled={false}
+        id={5}
+        max={9}
+        maxLength={1}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "2px solid",
+            "borderColor": "#81d4fa",
+            "color": "rgb(0, 55, 123)",
+            "fontSize": "3rem",
+            "margin": "0 5px",
+            "outline": "none",
+            "width": "2rem",
+          }
+        }
+        type="text"
+      />
+    </div>
+    <br />
+    <div
+      className="mt2 mb3"
+      style={
+        Object {
+          "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 2,
+          "boxShadow": undefined,
+          "boxSizing": "border-box",
+          "color": "#00377B",
+          "display": "inline-block",
+          "fontFamily": "Roboto, sans-serif",
+          "minWidth": 88,
+          "muiPrepared": true,
+          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        }
+      }
+    >
+      <button
+        disabled={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        style={
+          Object {
+            "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "#CAF1F6",
+            "border": 10,
+            "borderRadius": 2,
+            "boxSizing": "border-box",
+            "cursor": "default",
+            "display": "inline-block",
+            "fontFamily": "Roboto, sans-serif",
+            "fontSize": "inherit",
+            "fontWeight": "inherit",
+            "height": 36,
+            "lineHeight": "36px",
+            "margin": 0,
+            "muiPrepared": true,
+            "outline": "none",
+            "padding": 0,
+            "position": "relative",
+            "textAlign": "center",
+            "textDecoration": "none",
+            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            "verticalAlign": null,
+            "width": "100%",
+          }
+        }
+        tabIndex={-1}
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": false,
+              "borderRadius": 2,
+              "height": 36,
+              "muiPrepared": true,
+              "top": 0,
+              "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 14,
+                "fontWeight": 500,
+                "letterSpacing": 0,
+                "margin": 0,
+                "muiPrepared": true,
+                "opacity": 1,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "position": "relative",
+                "textTransform": "uppercase",
+                "userSelect": "none",
+              }
+            }
+          >
+            Continuar
+          </span>
+        </div>
+      </button>
+    </div>
+    <br />
+    <p
+      className="inline text-primary mt2"
+    >
+      ¿No recibiste el código?
+    </p>
+    <p
+      className="inline pointer"
+      onClick={undefined}
+      style={
+        Object {
+          "color": "#81d4fa",
+        }
+      }
+    >
+       
+      Enviar de nuevo.
+    </p>
+  </div>
+</div>
+`;

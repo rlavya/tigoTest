@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modal />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Connect(PageTitle)
+          page="Login"
+/>,
+        <div
+          className="clearfix center"
+>
+          <h1
+                    className="regular text-primary h3"
+          >
+                    Ingresa tus credenciales
+          </h1>
+          <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelStyle={
+                              Object {
+                                        "color": "#7986cb",
+                                      }
+                    }
+                    floatingLabelText="DMSID"
+                    fullWidth={false}
+                    multiLine={false}
+                    rows={1}
+                    type="number"
+                    underlineFocusStyle={
+                              Object {
+                                        "borderColor": "#81d4fa",
+                                      }
+                    }
+                    underlineShow={true}
+          />
+          <br />
+          <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelStyle={
+                              Object {
+                                        "color": "#7986cb",
+                                      }
+                    }
+                    floatingLabelText="ePIN"
+                    fullWidth={false}
+                    multiLine={false}
+                    rows={1}
+                    type="number"
+                    underlineFocusStyle={
+                              Object {
+                                        "borderColor": "#81d4fa",
+                                      }
+                    }
+                    underlineShow={true}
+          />
+          <br />
+          <RaisedButton
+                    className="mt2"
+                    disabled={false}
+                    fullWidth={false}
+                    label="Iniciar"
+                    labelPosition="after"
+                    onClick={[Function]}
+                    primary={false}
+                    secondary={true}
+          />
+</div>,
+        <Dialog
+          autoDetectWindowHeight={true}
+          autoScrollBodyContent={false}
+          className="center"
+          modal={false}
+          onRequestClose={[Function]}
+          open={true}
+          repositionOnUpdate={true}
+>
+          <h2
+                    className="light text-primary"
+          >
+                    Ingresa tu clave:
+          </h2>
+          <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelStyle={
+                              Object {
+                                        "color": "#7986cb",
+                                      }
+                    }
+                    floatingLabelText="CLAVE"
+                    fullWidth={false}
+                    multiLine={false}
+                    rows={1}
+                    type="number"
+                    underlineFocusStyle={
+                              Object {
+                                        "borderColor": "#81d4fa",
+                                      }
+                    }
+                    underlineShow={true}
+          />
+          <div
+                    className="mt2"
+          >
+                    <RaisedButton
+                              disabled={false}
+                              fullWidth={false}
+                              label="Continuar"
+                              labelPosition="after"
+                              onClick={[Function]}
+                              primary={false}
+                              secondary={true}
+                    />
+                    <br />
+                    <FlatButton
+                              disabled={false}
+                              fullWidth={false}
+                              keyboardFocused={true}
+                              label="Cancelar"
+                              labelPosition="after"
+                              labelStyle={Object {}}
+                              onClick={[Function]}
+                              onKeyboardFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onTouchStart={[Function]}
+                              primary={false}
+                              secondary={true}
+                    />
+          </div>
+</Dialog>,
+      ],
+      "className": "max-width-4 mx-auto",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "page": "Login",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="regular text-primary h3"
+>
+              Ingresa tus credenciales
+</h1>,
+            <TextField
+              disabled={false}
+              floatingLabelFixed={false}
+              floatingLabelStyle={
+                            Object {
+                                          "color": "#7986cb",
+                                        }
+              }
+              floatingLabelText="DMSID"
+              fullWidth={false}
+              multiLine={false}
+              rows={1}
+              type="number"
+              underlineFocusStyle={
+                            Object {
+                                          "borderColor": "#81d4fa",
+                                        }
+              }
+              underlineShow={true}
+/>,
+            <br />,
+            <TextField
+              disabled={false}
+              floatingLabelFixed={false}
+              floatingLabelStyle={
+                            Object {
+                                          "color": "#7986cb",
+                                        }
+              }
+              floatingLabelText="ePIN"
+              fullWidth={false}
+              multiLine={false}
+              rows={1}
+              type="number"
+              underlineFocusStyle={
+                            Object {
+                                          "borderColor": "#81d4fa",
+                                        }
+              }
+              underlineShow={true}
+/>,
+            <br />,
+            <RaisedButton
+              className="mt2"
+              disabled={false}
+              fullWidth={false}
+              label="Iniciar"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={false}
+              secondary={true}
+/>,
+          ],
+          "className": "clearfix center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ingresa tus credenciales",
+              "className": "regular text-primary h3",
+            },
+            "ref": null,
+            "rendered": "Ingresa tus credenciales",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "floatingLabelFixed": false,
+              "floatingLabelStyle": Object {
+                "color": "#7986cb",
+              },
+              "floatingLabelText": "DMSID",
+              "fullWidth": false,
+              "multiLine": false,
+              "rows": 1,
+              "type": "number",
+              "underlineFocusStyle": Object {
+                "borderColor": "#81d4fa",
+              },
+              "underlineShow": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "floatingLabelFixed": false,
+              "floatingLabelStyle": Object {
+                "color": "#7986cb",
+              },
+              "floatingLabelText": "ePIN",
+              "fullWidth": false,
+              "multiLine": false,
+              "rows": 1,
+              "type": "number",
+              "underlineFocusStyle": Object {
+                "borderColor": "#81d4fa",
+              },
+              "underlineShow": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "mt2",
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Iniciar",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": false,
+              "secondary": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoDetectWindowHeight": true,
+          "autoScrollBodyContent": false,
+          "children": Array [
+            <h2
+              className="light text-primary"
+>
+              Ingresa tu clave:
+</h2>,
+            <TextField
+              disabled={false}
+              floatingLabelFixed={false}
+              floatingLabelStyle={
+                            Object {
+                                          "color": "#7986cb",
+                                        }
+              }
+              floatingLabelText="CLAVE"
+              fullWidth={false}
+              multiLine={false}
+              rows={1}
+              type="number"
+              underlineFocusStyle={
+                            Object {
+                                          "borderColor": "#81d4fa",
+                                        }
+              }
+              underlineShow={true}
+/>,
+            <div
+              className="mt2"
+>
+              <RaisedButton
+                            disabled={false}
+                            fullWidth={false}
+                            label="Continuar"
+                            labelPosition="after"
+                            onClick={[Function]}
+                            primary={false}
+                            secondary={true}
+              />
+              <br />
+              <FlatButton
+                            disabled={false}
+                            fullWidth={false}
+                            keyboardFocused={true}
+                            label="Cancelar"
+                            labelPosition="after"
+                            labelStyle={Object {}}
+                            onClick={[Function]}
+                            onKeyboardFocus={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            onTouchStart={[Function]}
+                            primary={false}
+                            secondary={true}
+              />
+</div>,
+          ],
+          "className": "center",
+          "modal": false,
+          "onRequestClose": [Function],
+          "open": true,
+          "repositionOnUpdate": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ingresa tu clave:",
+              "className": "light text-primary",
+            },
+            "ref": null,
+            "rendered": "Ingresa tu clave:",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "floatingLabelFixed": false,
+              "floatingLabelStyle": Object {
+                "color": "#7986cb",
+              },
+              "floatingLabelText": "CLAVE",
+              "fullWidth": false,
+              "multiLine": false,
+              "rows": 1,
+              "type": "number",
+              "underlineFocusStyle": Object {
+                "borderColor": "#81d4fa",
+              },
+              "underlineShow": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <RaisedButton
+                  disabled={false}
+                  fullWidth={false}
+                  label="Continuar"
+                  labelPosition="after"
+                  onClick={[Function]}
+                  primary={false}
+                  secondary={true}
+/>,
+                <br />,
+                <FlatButton
+                  disabled={false}
+                  fullWidth={false}
+                  keyboardFocused={true}
+                  label="Cancelar"
+                  labelPosition="after"
+                  labelStyle={Object {}}
+                  onClick={[Function]}
+                  onKeyboardFocus={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onTouchStart={[Function]}
+                  primary={false}
+                  secondary={true}
+/>,
+              ],
+              "className": "mt2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "disabled": false,
+                  "fullWidth": false,
+                  "label": "Continuar",
+                  "labelPosition": "after",
+                  "onClick": [Function],
+                  "primary": false,
+                  "secondary": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "disabled": false,
+                  "fullWidth": false,
+                  "keyboardFocused": true,
+                  "label": "Cancelar",
+                  "labelPosition": "after",
+                  "labelStyle": Object {},
+                  "onClick": [Function],
+                  "onKeyboardFocus": [Function],
+                  "onMouseEnter": [Function],
+                  "onMouseLeave": [Function],
+                  "onTouchStart": [Function],
+                  "primary": false,
+                  "secondary": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(PageTitle)
+            page="Login"
+/>,
+          <div
+            className="clearfix center"
+>
+            <h1
+                        className="regular text-primary h3"
+            >
+                        Ingresa tus credenciales
+            </h1>
+            <TextField
+                        disabled={false}
+                        floatingLabelFixed={false}
+                        floatingLabelStyle={
+                                    Object {
+                                                "color": "#7986cb",
+                                              }
+                        }
+                        floatingLabelText="DMSID"
+                        fullWidth={false}
+                        multiLine={false}
+                        rows={1}
+                        type="number"
+                        underlineFocusStyle={
+                                    Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                        }
+                        underlineShow={true}
+            />
+            <br />
+            <TextField
+                        disabled={false}
+                        floatingLabelFixed={false}
+                        floatingLabelStyle={
+                                    Object {
+                                                "color": "#7986cb",
+                                              }
+                        }
+                        floatingLabelText="ePIN"
+                        fullWidth={false}
+                        multiLine={false}
+                        rows={1}
+                        type="number"
+                        underlineFocusStyle={
+                                    Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                        }
+                        underlineShow={true}
+            />
+            <br />
+            <RaisedButton
+                        className="mt2"
+                        disabled={false}
+                        fullWidth={false}
+                        label="Iniciar"
+                        labelPosition="after"
+                        onClick={[Function]}
+                        primary={false}
+                        secondary={true}
+            />
+</div>,
+          <Dialog
+            autoDetectWindowHeight={true}
+            autoScrollBodyContent={false}
+            className="center"
+            modal={false}
+            onRequestClose={[Function]}
+            open={true}
+            repositionOnUpdate={true}
+>
+            <h2
+                        className="light text-primary"
+            >
+                        Ingresa tu clave:
+            </h2>
+            <TextField
+                        disabled={false}
+                        floatingLabelFixed={false}
+                        floatingLabelStyle={
+                                    Object {
+                                                "color": "#7986cb",
+                                              }
+                        }
+                        floatingLabelText="CLAVE"
+                        fullWidth={false}
+                        multiLine={false}
+                        rows={1}
+                        type="number"
+                        underlineFocusStyle={
+                                    Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                        }
+                        underlineShow={true}
+            />
+            <div
+                        className="mt2"
+            >
+                        <RaisedButton
+                                    disabled={false}
+                                    fullWidth={false}
+                                    label="Continuar"
+                                    labelPosition="after"
+                                    onClick={[Function]}
+                                    primary={false}
+                                    secondary={true}
+                        />
+                        <br />
+                        <FlatButton
+                                    disabled={false}
+                                    fullWidth={false}
+                                    keyboardFocused={true}
+                                    label="Cancelar"
+                                    labelPosition="after"
+                                    labelStyle={Object {}}
+                                    onClick={[Function]}
+                                    onKeyboardFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onTouchStart={[Function]}
+                                    primary={false}
+                                    secondary={true}
+                        />
+            </div>
+</Dialog>,
+        ],
+        "className": "max-width-4 mx-auto",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "page": "Login",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="regular text-primary h3"
+>
+                Ingresa tus credenciales
+</h1>,
+              <TextField
+                disabled={false}
+                floatingLabelFixed={false}
+                floatingLabelStyle={
+                                Object {
+                                                "color": "#7986cb",
+                                              }
+                }
+                floatingLabelText="DMSID"
+                fullWidth={false}
+                multiLine={false}
+                rows={1}
+                type="number"
+                underlineFocusStyle={
+                                Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                }
+                underlineShow={true}
+/>,
+              <br />,
+              <TextField
+                disabled={false}
+                floatingLabelFixed={false}
+                floatingLabelStyle={
+                                Object {
+                                                "color": "#7986cb",
+                                              }
+                }
+                floatingLabelText="ePIN"
+                fullWidth={false}
+                multiLine={false}
+                rows={1}
+                type="number"
+                underlineFocusStyle={
+                                Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                }
+                underlineShow={true}
+/>,
+              <br />,
+              <RaisedButton
+                className="mt2"
+                disabled={false}
+                fullWidth={false}
+                label="Iniciar"
+                labelPosition="after"
+                onClick={[Function]}
+                primary={false}
+                secondary={true}
+/>,
+            ],
+            "className": "clearfix center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ingresa tus credenciales",
+                "className": "regular text-primary h3",
+              },
+              "ref": null,
+              "rendered": "Ingresa tus credenciales",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "floatingLabelFixed": false,
+                "floatingLabelStyle": Object {
+                  "color": "#7986cb",
+                },
+                "floatingLabelText": "DMSID",
+                "fullWidth": false,
+                "multiLine": false,
+                "rows": 1,
+                "type": "number",
+                "underlineFocusStyle": Object {
+                  "borderColor": "#81d4fa",
+                },
+                "underlineShow": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "floatingLabelFixed": false,
+                "floatingLabelStyle": Object {
+                  "color": "#7986cb",
+                },
+                "floatingLabelText": "ePIN",
+                "fullWidth": false,
+                "multiLine": false,
+                "rows": 1,
+                "type": "number",
+                "underlineFocusStyle": Object {
+                  "borderColor": "#81d4fa",
+                },
+                "underlineShow": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "mt2",
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Iniciar",
+                "labelPosition": "after",
+                "onClick": [Function],
+                "primary": false,
+                "secondary": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoDetectWindowHeight": true,
+            "autoScrollBodyContent": false,
+            "children": Array [
+              <h2
+                className="light text-primary"
+>
+                Ingresa tu clave:
+</h2>,
+              <TextField
+                disabled={false}
+                floatingLabelFixed={false}
+                floatingLabelStyle={
+                                Object {
+                                                "color": "#7986cb",
+                                              }
+                }
+                floatingLabelText="CLAVE"
+                fullWidth={false}
+                multiLine={false}
+                rows={1}
+                type="number"
+                underlineFocusStyle={
+                                Object {
+                                                "borderColor": "#81d4fa",
+                                              }
+                }
+                underlineShow={true}
+/>,
+              <div
+                className="mt2"
+>
+                <RaisedButton
+                                disabled={false}
+                                fullWidth={false}
+                                label="Continuar"
+                                labelPosition="after"
+                                onClick={[Function]}
+                                primary={false}
+                                secondary={true}
+                />
+                <br />
+                <FlatButton
+                                disabled={false}
+                                fullWidth={false}
+                                keyboardFocused={true}
+                                label="Cancelar"
+                                labelPosition="after"
+                                labelStyle={Object {}}
+                                onClick={[Function]}
+                                onKeyboardFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onTouchStart={[Function]}
+                                primary={false}
+                                secondary={true}
+                />
+</div>,
+            ],
+            "className": "center",
+            "modal": false,
+            "onRequestClose": [Function],
+            "open": true,
+            "repositionOnUpdate": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ingresa tu clave:",
+                "className": "light text-primary",
+              },
+              "ref": null,
+              "rendered": "Ingresa tu clave:",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "floatingLabelFixed": false,
+                "floatingLabelStyle": Object {
+                  "color": "#7986cb",
+                },
+                "floatingLabelText": "CLAVE",
+                "fullWidth": false,
+                "multiLine": false,
+                "rows": 1,
+                "type": "number",
+                "underlineFocusStyle": Object {
+                  "borderColor": "#81d4fa",
+                },
+                "underlineShow": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Continuar"
+                    labelPosition="after"
+                    onClick={[Function]}
+                    primary={false}
+                    secondary={true}
+/>,
+                  <br />,
+                  <FlatButton
+                    disabled={false}
+                    fullWidth={false}
+                    keyboardFocused={true}
+                    label="Cancelar"
+                    labelPosition="after"
+                    labelStyle={Object {}}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchStart={[Function]}
+                    primary={false}
+                    secondary={true}
+/>,
+                ],
+                "className": "mt2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "disabled": false,
+                    "fullWidth": false,
+                    "label": "Continuar",
+                    "labelPosition": "after",
+                    "onClick": [Function],
+                    "primary": false,
+                    "secondary": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "disabled": false,
+                    "fullWidth": false,
+                    "keyboardFocused": true,
+                    "label": "Cancelar",
+                    "labelPosition": "after",
+                    "labelStyle": Object {},
+                    "onClick": [Function],
+                    "onKeyboardFocus": [Function],
+                    "onMouseEnter": [Function],
+                    "onMouseLeave": [Function],
+                    "onTouchStart": [Function],
+                    "primary": false,
+                    "secondary": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
